@@ -1,0 +1,16 @@
+.main_layout {
+  display: flex;
+  & > .main_layout__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    .header {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      z-index: 8;
+    }
+  }
+}

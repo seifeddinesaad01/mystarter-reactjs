@@ -1,0 +1,6 @@
+.guest_layout {
+  display: flex;
+  & > div {
+    min-height: 100vh;
+  }
+}

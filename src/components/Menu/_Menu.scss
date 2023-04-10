@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  .profile__avatar {
+    cursor: pointer !important;
+  }
+}
+.menu_main {
+  .logout_item {
+    color: #d32f2f !important;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 1px solid #dadada;
+    box-shadow: none;
+    ul {
+      li {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+        color: #707c9a;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters {
+    background-color: white !important;
+    // &:hover {
+    //   background-color: red !important;
+    // }
+  }
+  .MuiList-root.MuiList-padding.MuiMenu-list {
+    width: 175px !important;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,14 @@
+.hamburger__bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  transition: all 300ms ease;
+  width: 45px;
+  height: 45px;
+  border-radius: 80px;
+  & > svg {
+    stroke: #0f1e42;
+  }
+}
